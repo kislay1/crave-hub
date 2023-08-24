@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const mongoURI =   'mongodb+srv://kislay028:benzene@cluster1.ncf8zpr.mongodb.net/cravehub?retryWrites=true&w=majority'
+const mongoURI =process.env.MONGO_URL;
 
 
 
